@@ -1,5 +1,5 @@
 <?php 
-  $title = "";
+  $title = "关于我们 | ";
   include "../config.php";
   include "../header.php";
 ?>

@@ -31,6 +31,9 @@ body {
     float: right;
 }
 
+.clear {
+    clear: both;
+}
 
 
 .button {
@@ -64,6 +67,17 @@ body {
 .button.success:hover {
     background-color: #5CB85C;
 }
+
+
+/* table */
+.datatable { border:1px solid #888888; border-radius:10px; width:100%;margin:10px 0px; }
+.datatable tr,.datatable th,.datatable td { border:1px solid #aaa; }
+.datatable th { background:#ccc; text-align:left; }
+.datatable th,.datatable td { padding:8px 10px 8px 10px; }
+.datatable tr { background:#eee;    }
+.datatable tr.even { background:#fff; }
+.datatable td.code {font-family:"Courier New"; }
+.datatable.hover tr:hover { background:#ddd;}
 
 /**************** footer ****************/
 footer {
