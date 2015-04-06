@@ -6,7 +6,7 @@
       		<?php include "menu.php"; ?>
       	</div>
 
-      	<iframe width="100%" height="360" class="share_self"  frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=&width=0&height=360&fansRow=2&ptype=1&speed=0&skin=1&isTitle=0&noborder=1&isWeibo=0&isFans=1&uid=2175683160&verifier=e5e5a67c&dpc=1"></iframe>
+      	<!-- <iframe width="100%" height="350" class="share_self"  frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=&width=0&height=350&fansRow=2&ptype=1&speed=0&skin=1&isTitle=0&noborder=1&isWeibo=0&isFans=1&uid=2175683160&verifier=e5e5a67c&dpc=1"></iframe> -->
       </div>
       <div class="docs-content">
       	<h1><?=$d[0]; ?><div class="s-share bdsharebuttonbox bdshare-button-style0-24" data-bd-bind="1428301103402"><a href="#" class="bds_more" data-cmd="more"></a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a><a href="#" class="bds_sqq" data-cmd="sqq" title="分享到QQ好友"></a><a href="#" class="bds_youdao" data-cmd="youdao" title="分享到有道云笔记"></a></div></h1>

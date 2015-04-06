@@ -24,7 +24,7 @@
 <html lang="en" xmlns:wb="http://open.weibo.com/wb">
 <head>
   <meta charset="UTF-8">
-  <title><?=$title ?>Highcharts中文网</title>
+  <title><?=$title ?></title>
   <meta name="keywords" content="Highcharts,Highcharts中文网,Charts,Highcharts api文档,Highcharts教程,Highcharts资源下载" />
   <meta name="description" content="Highcharts中文网，一站式Highcharts学习
 资源。提供Highcharts中文论坛、Highcharts在线示例、Highcharts中文APi、Highcharts>中文教程、Highcharts资源下载等" />
