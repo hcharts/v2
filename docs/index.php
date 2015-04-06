@@ -57,10 +57,7 @@
 
   <?php include "../footer.php"; ?>
   <script src="http://tjs.sjs.sinajs.cn/open/api/js/wb.js" type="text/javascript" charset="utf-8"></script>
-  <!-- 
-    这里可以引入其他 js 库文件，例如：
-    <script type="text/javascript" src="js/highcharts.js"></script>
-  -->
+  
   <script type="text/javascript">
   	var active = $(".docs-menu").find("[data-href=<?=$doc?>]");
 	active.addClass("active");
