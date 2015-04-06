@@ -1,3 +1,25 @@
+<?php
+
+  
+  include "../config.php";
+  
+  $doc = "index";
+  if(isset($_GET['doc'])) {
+  $doc = $_GET['doc'];
+  $doc = str_replace("'", "", $doc);
+  $doc = str_replace(" ", "", $doc);
+  }
+  $link = my_mysql_connect();
+  $select = "select title,author,content,lastupdate,datetime from hc_docs where name = '$doc' and status = 0";
+  $docs = my_mysql_query($link,$select);
+  if(mysql_num_rows($docs) ==0) {
+    header("location:/404.html");
+    exit();
+  }
+  $d = mysql_fetch_row($docs);
+  $title = "$d[0] | Highcharts中文教程";
+?>
+
 <!DOCTYPE html>
 <html lang="en" xmlns:wb="http://open.weibo.com/wb">
 <head>
@@ -7,6 +29,13 @@
   <meta name="description" content="Highcharts中文网，一站式Highcharts学习
 资源。提供Highcharts中文论坛、Highcharts在线示例、Highcharts中文APi、Highcharts>中文教程、Highcharts资源下载等" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="http://www.hcharts.cn/docs/index.php?doc=<?=$doc?>" />
+  <meta property="og:title" content="<?=$d[0]?>" />
+  <meta property="og:description" content="<?=$title?>" />
+  <meta name="weibo: article:create_at" content="<?=$d[4]?>" />
+  <meta name="weibo: article:update_at" content="<?=$d[3]?>" />
+        
   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>

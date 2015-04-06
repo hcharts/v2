@@ -1,6 +1,8 @@
 /**************** Common ****************/
+
 body {
-	padding-top: 47px;
+    padding-top: 67px;
+    background-color: #ececec;
 }
 
 .container {
@@ -35,7 +37,6 @@ body {
     clear: both;
 }
 
-
 .button {
     font-size: 13px;
     background: #006ecc;
@@ -67,23 +68,53 @@ body {
 .button.success:hover {
     background-color: #5CB85C;
 }
-
-
 /* table */
-.datatable { border:1px solid #888888; border-radius:10px; width:100%;margin:10px 0px; }
-.datatable tr,.datatable th,.datatable td { border:1px solid #aaa; }
-.datatable th { background:#ccc; text-align:left; }
-.datatable th,.datatable td { padding:8px 10px 8px 10px; }
-.datatable tr { background:#eee;    }
-.datatable tr.even { background:#fff; }
-.datatable td.code {font-family:"Courier New"; }
-.datatable.hover tr:hover { background:#ddd;}
 
+.datatable {
+    border: 1px solid #888888;
+    border-radius: 10px;
+    width: 100%;
+    margin: 10px 0px;
+}
+
+.datatable tr,
+.datatable th,
+.datatable td {
+    border: 1px solid #aaa;
+}
+
+.datatable th {
+    background: #ccc;
+    text-align: left;
+}
+
+.datatable th,
+.datatable td {
+    padding: 8px 10px 8px 10px;
+}
+
+.datatable tr {
+    background: #eee;
+}
+
+.datatable tr.even {
+    background: #fff;
+}
+
+.datatable td.code {
+    font-family: "Courier New";
+}
+
+.datatable.hover tr:hover {
+    background: #ddd;
+}
 /**************** footer ****************/
+
 footer {
     background-color: #4E4B41;
     color: #fff;
     text-align: center;
+    margin-top: 30px;
 }
 
 footer p {
@@ -101,9 +132,8 @@ footer a:hover {
     text-decoration: none;
     border-bottom: 1px solid #fff;
 }
-
-
 /**************** Support Header ****************/
+
 .s-header {
     height: 200px;
     background: url('/upload/homev_updated.png') no-repeat;
@@ -168,13 +198,7 @@ footer a:hover {
     top: 10px;
     font-weight: normal;
 }
-
-
 /**************** Support Content ****************/
-.s-content {
-    background: #ececec;
-    padding: 20px 0;
-}
 
 .s-content h1 {
     border-bottom: 1px solid #006cee;
@@ -298,8 +322,9 @@ footer a:hover {
     width: 50%;
 }
 
-.s-content p,.s-content li {
-    font: 14px/24px 'Microsoft YaHei',"Helvetica Neue", Helvetica, Arial, sans-serif;
+.s-content p,
+.s-content li {
+    font: 14px/24px 'Microsoft YaHei', "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #333;
 }
 
@@ -432,9 +457,8 @@ footer a:hover {
     padding: 20px;
     margin-top: -20px;
 }
-
-
 /** Donate**/
+
 .donate-method {
     color: #006cee!important;
     font-size: 20px!important;
@@ -451,4 +475,180 @@ footer a:hover {
     float: right;
     margin-top: -100px;
     background: url('/images/donate-me1.png') no-repeat;
+}
+/********* Docs *************/
+
+.docs-silder {
+    float: left;
+    width: 220px;
+}
+
+.docs-box {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.docs-menu {
+    padding: 10px 20px;
+    position: relative;
+}
+
+.docs-menu a {
+    color: #aaa;
+}
+
+.docs-menu dl {
+    margin: 6px 0;
+}
+
+.docs-menu dd {
+    display: none;
+    margin: 2px 14px;
+}
+
+.docs-menu .active {
+    display: block;
+}
+
+.docs-menu dd.active:after,.docs-menu dt.active:after {
+    content: '';
+    position: absolute;
+    right: -26px;
+    width: 1em;
+    height: 1em;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -webkit-transition: background .1s linear;
+    -moz-transition: background .1s linear;
+    transition: background .1s linear;
+    background-color: #FFF;
+    border-left: 1px solid #aaa;
+    border-bottom: 1px solid #aaa;
+    z-index: 2;
+}
+
+.docs-menu dl.active a {
+    color: #333;
+}
+
+.docs-menu dl.active > dd {
+    display: block;
+}
+
+.docs-menu dd.active > a {
+    color: #ff0000;
+}
+
+.docs-index {
+    display: block!important;
+    margin-left: 0!important;
+    font-weight: normal!important;
+}
+.docs-index a {
+    color:#333;
+}
+
+.docs-content {
+    color: #333;
+    float: right;
+    width: 780px;
+    padding: 40px;
+    background-color: #fff;
+    border: 1px solid #aaa;
+}
+
+.docs-content h1  {
+      border-bottom: 1px solid #006cee;
+    padding-bottom: 10px;
+  margin-bottom: 14px;
+}
+
+.docs-content h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+  margin-top: 20px;
+
+}
+.docs-content h4 {
+    color: #1214A0;
+    font-size:16px;
+    margin: 16px 0;
+}
+.docs-content h5 {
+    margin: 10px 0;
+}
+.docs-content p, .docs-content li , .docs-content blockquote{
+    font: 14px/24px 'Microsoft YaHei', "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.docs-content pre {
+    font-family: 'Courier New',"Helvetica Neue", Helvetica, Arial, sans-serif;;
+    color:#000;
+}
+
+.docs-content blockquote {
+    margin: 10px 0 30px 0;
+  padding: 14px 65px 14px 60px;
+  background: #f9f9f9 url(/images/icon_quote_e.gif) no-repeat 97% 100%;
+  line-height: 1.6;
+  position:relative;
+  border-left: none;
+  border-radius: 5px;
+}
+
+.docs-content blockquote:before {
+    content: "";
+    position: absolute;
+    width: 4em;
+    height: 3em;
+    top:0;
+    left: 0;
+    background: #f9f9f9 url(/images/icon_quote_s.gif) no-repeat 20px 6px;
+}
+
+.docs-like {
+    border-top: 1px solid #aaa;
+    margin-top: 40px;
+    position: relative;
+}
+
+.docs-like h3 {
+    color:#1214A0;
+}
+
+.docs-nav {
+    position: absolute;
+    width: 400px;
+    top:30px;
+    left:378px;
+    text-align: center;
+}
+
+.docs-donate {
+    width: 400px;
+    height:160px;
+    border-top: 1px solid #eee;
+    margin-top: 30px;
+    background: url('/images/donate.jpg') no-repeat 90%;
+    position: relative;
+}
+
+.docs-nav h3 {
+    border-bottom: none;
+    width: 20px;
+    display: inline-block;
+    position: absolute;
+    top:60px;
+    left:20px;
+}
+
+.docs-more {
+    margin-top: 40px;
+    background-color: #eee;
+    padding: 10px 20px 20px 20px;
+    border-radius: 8px;
 }
