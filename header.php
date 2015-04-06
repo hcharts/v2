@@ -7,7 +7,7 @@
     <meta name="description" content="Highcharts中文网，一站式Highcharts学习
 资源。提供Highcharts中文论坛、Highcharts在线示例、Highcharts中文APi、Highcharts>中文教程、Highcharts资源下载等" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" type="text/css" href="http://static.hcharts.cn/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
