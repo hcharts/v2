@@ -1,8 +1,8 @@
 <?php
 	// Database config
 	define("DB_HOST","localhost");
-	define("DB_USER","hc_main");
-	define("DB_PASS","moshi2014!@#$");
+	define("DB_USER","root");
+	define("DB_PASS","123456");
 	define('DB_NAME', "hc_main");
 
 	// mysql connect

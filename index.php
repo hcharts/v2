@@ -1,17 +1,25 @@
 <?php 
-	$title = "";
-	include "config.php";
-	include "header.php";
+  $title = "";
+  include "config.php";
+  include "header.php";
 ?>
 
-	<div class="container">
-		Main content
-	</div>
+  <section>
+    <div class="container">
+      Section 1
+    </div>
+  </section>
 
-	<?php include "footer.php"; ?>
-	<!-- 
-		这里可以引入其他 js 库文件，例如：
-		<script type="text/javascript" src="js/highcharts.js"></script>
-	-->
+  <section>
+    <div class="container">
+      Section 2
+    </div>
+  </section>
+
+  <?php include "footer.php"; ?>
+  <!-- 
+    这里可以引入其他 js 库文件，例如：
+    <script type="text/javascript" src="js/highcharts.js"></script>
+  -->
 </body>
 </html>
