@@ -3,3 +3,4 @@
 fis-conf.js
 /api/json/
 /api/json2/
+**.DS_Store
