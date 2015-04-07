@@ -35,3 +35,26 @@ function aa() {
 	do some thing;
 }
 */
+
+/****** License functions *****/
+function showH(target) {
+	$(".li_type").find("li.cur").removeClass("cur");
+	$(".li_type").find("li[index='"+target+"']").addClass("cur");
+	$(".h").hide();
+	$("."+target).show();
+}
+
+function step(target,left) {
+	$(".li_step").find(".li_ico").css({"left":left});
+	$(".li_step").find(".step").hide();
+	$(".li_step").find("."+target).show();
+}
+
+
+function AutoScroll(obj){ 
+	$(obj).find("ul:first").animate({ 
+		marginTop:"-18px" 
+		},500,function(){ 
+		$(this).css({marginTop:"0px"}).find("li:first").appendTo(this); 
+	}); 
+} 

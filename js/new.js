@@ -380,6 +380,13 @@ function addFirstLevelMenuItem(key, val, type) {
         addFirstLevelMenuItem.apply(null, arguments)
     }
 };
+
+function updateHeight() {
+    var height = $(window).height() + 50;
+    $("#api-warp").height(height);
+    $("#nav-wrap").height(height);
+    $("#details-wrap").height(height);
+};
 $(document).ready(function() {
     if (/-/.test(location.hash)) {
         location.hash = location.hash.replace(/(--|-)/g, '.')

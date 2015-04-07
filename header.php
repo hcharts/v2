@@ -46,7 +46,7 @@
                 <li><a href="/api/highstock.php" >Highstock&nbsp; API 文档</a></li>
                 <li><a href="/api/highmaps.php" >HighMaps&nbsp; API 文档</a></li>
                 <li class="divider"></li>
-                <li><a href='/api/api.php'>API 文档翻译</a></li>
+                <li><a href='/api/translate.php'>API 文档翻译</a></li>
               </ul>
             </li>           
             <li  class="dropdown" index="product">

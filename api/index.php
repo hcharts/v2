@@ -301,12 +301,7 @@
       } else {
         $(".primary").show();
       }
-      function updateHeight() {
-        var height = $(window).height() + 80;
-        $("#api-warp").height(height);
-        $("#nav-wrap").height(height);
-        $("#details-wrap").height(height);
-      };
+      
       updateHeight();
 
       $(window).resize(function(){

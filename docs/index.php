@@ -1,5 +1,5 @@
 <?php include "../header-docs.php"; ?>
-  <section id="docs">
+  <section class="s-content">
     <div class="container">
       <div class="docs-silder">
       	<div class="docs-menu docs-box">
