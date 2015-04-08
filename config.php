@@ -5,6 +5,9 @@
 	define("DB_PASS","123456");
 	define('DB_NAME', "hc_main");
 
+	// Base path
+	define('BASEPATH', '/');
+
 	// mysql connect
 	function my_mysql_connect() {
 		$link = mysql_connect(constant('DB_HOST'),constant('DB_USER'),constant('DB_PASS'));

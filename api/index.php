@@ -286,7 +286,7 @@
   <?php include "../footer.php"; ?>
 
 
-  <script type="text/javascript" src="/js/jquery-ui.js"></script>
+  <script type="text/javascript" src="<?=constant('BASEPATH')?>js/jquery-ui.js"></script>
   <script type="text/javascript">
     var RESOURCE = "";
     var PRODUCTNAME = "json/40420140924";
@@ -309,7 +309,7 @@
       })
     });
   </script>
-  <script src="/js/new.js" type="text/javascript"></script>
+  <script src="<?=constant('BASEPATH')?>js/new.js" type="text/javascript"></script>
   
 </body>
 </html>
