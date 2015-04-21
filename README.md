@@ -1,6 +1,20 @@
 # v2
 HCharts.cn version 2.0
 
+### 运行环境
+
+* php
+* mysql
+
+### 开发环境
+
+建议统一用 Sublime Text 2，推荐插件：
+
+* Emmet    前段神器
+* HTML-CSS-JS Perttify  前段代码格式化工具
+* BracketHighlighter
+
+
 ### 文件说明
 
 * css  所有 CSS 文件存放路径，所有的 css 写在 style.css 中即可，如果有其他第三方库需要，请存放在这个目录下

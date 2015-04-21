@@ -1,8 +1,7 @@
 <?php
 
-  
   include "../config.php";
-  
+
   $doc = "index";
   if(isset($_GET['doc'])) {
   $doc = $_GET['doc'];
@@ -11,7 +10,7 @@
   }
   $link = my_mysql_connect();
   $select = "select title,author,content,lastupdate,datetime from hc_docs where name = '$doc' and status = 0";
-  $docs = my_mysql_query($link,$select);
+  $docs = my_mysql_query($link,$select) or die("sds");
   if(mysql_num_rows($docs) ==0) {
     header("location:/404.html");
     exit();
@@ -35,7 +34,7 @@
   <meta property="og:description" content="<?=$title?>" />
   <meta name="weibo: article:create_at" content="<?=$d[4]?>" />
   <meta name="weibo: article:update_at" content="<?=$d[3]?>" />
-        
+
   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
@@ -48,14 +47,14 @@
             <li class="active">
               <a href="/index.php" class="brand">Highcharts中文网</a>
             </li>
-            
+
             <li index="index">
               <a href="/index.php">首页</a>
             </li>
-            
+
             <li>
               <a href="http://bbs.hcharts.cn" target="_blank">中文论坛</a>
-            </li>       
+            </li>
             <li class="dropdown" index="demo">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">在线演示&nbsp;<b class="caret"></b></a>
               <ul class="dropdown-menu">
@@ -63,11 +62,11 @@
               <li><a href="/demo/highstock.php">Highstock&nbsp; 在线演示</a></li>
             </ul>
             </li>
-            
+
             <li index="docs">
               <a href="/docs/index.php">中文教程</a>
             </li>
-            
+
             <li class="dropdown" index="api">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">API 文档&nbsp;<b class="caret"></b></a>
               <ul class="dropdown-menu">
@@ -77,7 +76,7 @@
                 <li class="divider"></li>
                 <li><a href='/api/translate.php'>API 文档翻译</a></li>
               </ul>
-            </li>           
+            </li>
             <li  class="dropdown" index="product">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">产品中心&nbsp;<b class="caret"></b></a>
               <ul class="dropdown-menu">
@@ -93,7 +92,7 @@
             <li index="about">
               <a href="/about/index.php">关于我们</a>
             </li>
-          </ul> 
+          </ul>
         </div>
       </div>
     </div>
