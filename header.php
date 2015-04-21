@@ -19,14 +19,14 @@
             <li class="active">
               <a href="/index.php" class="brand">Highcharts中文网</a>
             </li>
-            
+
             <li index="index">
               <a href="/index.php">首页</a>
             </li>
-            
+
             <li>
               <a href="http://bbs.hcharts.cn" target="_blank">中文论坛</a>
-            </li>       
+            </li>
             <li class="dropdown" index="demo">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">在线演示&nbsp;<b class="caret"></b></a>
               <ul class="dropdown-menu">
@@ -34,11 +34,11 @@
               <li><a href="/demo/highstock.php">Highstock&nbsp; 在线演示</a></li>
             </ul>
             </li>
-            
+
             <li index="docs">
               <a href="/docs/index.php">中文教程</a>
             </li>
-            
+
             <li class="dropdown" index="api">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">API 文档&nbsp;<b class="caret"></b></a>
               <ul class="dropdown-menu">
@@ -48,7 +48,7 @@
                 <li class="divider"></li>
                 <li><a href='/api/translate.php'>API 文档翻译</a></li>
               </ul>
-            </li>           
+            </li>
             <li  class="dropdown" index="product">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">产品中心&nbsp;<b class="caret"></b></a>
               <ul class="dropdown-menu">
@@ -64,7 +64,7 @@
             <li index="about">
               <a href="/about/index.php">关于我们</a>
             </li>
-          </ul> 
+          </ul>
         </div>
       </div>
     </div>

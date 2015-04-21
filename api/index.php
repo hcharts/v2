@@ -1,4 +1,4 @@
-<?php 
+<?php
   $title = "中文 API | ";
   include "../config.php";
   include "../header.php";
@@ -289,19 +289,19 @@
   <script type="text/javascript" src="<?=constant('BASEPATH')?>js/jquery-ui.js"></script>
   <script type="text/javascript">
     var RESOURCE = "";
-    var PRODUCTNAME = "json/40420140924";
+    var PRODUCTNAME = "json";
     var temp = "";
     var temp2 = 0;
 
     $(function() {
-      
+
       var cur_nav = document.location.href.split("#")[1];
       if(typeof(cur_nav)!="undefined") {
         $(".primary").hide();
       } else {
         $(".primary").show();
       }
-      
+
       updateHeight();
 
       $(window).resize(function(){
@@ -310,6 +310,6 @@
     });
   </script>
   <script src="<?=constant('BASEPATH')?>js/new.js" type="text/javascript"></script>
-  
+
 </body>
 </html>
