@@ -6,7 +6,7 @@
 	define('DB_NAME', "hc_main");
 
 	// Base path
-	define('BASEPATH', '/');
+	define('BASEPATH', '/v2/');
 
 	// mysql connect
 	function my_mysql_connect() {
