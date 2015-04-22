@@ -17,7 +17,7 @@
     </header>
     <section class="container demo-section">
         <div class="demo_categories" id="line-charts">
-            <h2>Line charts</h2>
+            <h2>线图  <small>（折线图和曲线图）</small></h2>
             <ul class="demos_default_ul">
                 <li class="demo-list-container">
                     <div class="demo-container">
@@ -112,7 +112,7 @@
             </ul>
         </div>
         <div class="demo_categories" id="area-charts">
-            <h2>AREA CHARTS</h2>
+            <h2>面积图 <small>（面积图和面积范围图）</small></h2>
             <ul class="demos_default_ul">
                 <li class="demo-list-container">
                     <div class="demo-container">
@@ -217,7 +217,7 @@
             </ul>
         </div>
         <div class="demo_categories" id="column-and-bar-charts">
-            <h2>柱状图和条形图 </h2>
+            <h2>柱形图 <small>（柱状图和条形图）</small> </h2>
             <ul class="demos_default_ul">
                 <li class="demo-list-container">
                     <div class="demo-container">
@@ -342,7 +342,7 @@
             </ul>
         </div>
         <div class="demo_categories" id="pie-charts">
-            <h2>PIE CHARTS</h2>
+            <h2>饼图 <small>（饼图、扇形图、环形图）</small></h2>
             <ul class="demos_default_ul">
                 <li class="demo-list-container">
                     <div class="demo-container">
@@ -552,7 +552,7 @@
             </ul>
         </div>
         <div class="demo_categories" id="3d-charts">
-            <h2>3D图表</h2>
+            <h2>3D 图</h2>
             <ul class="demos_default_ul">
                 <li class="demo-list-container">
                     <div class="demo-container">
@@ -617,7 +617,7 @@
             </ul>
         </div>
         <div class="demo_categories" id="gauges">
-            <h2>仪表盘</h2>
+            <h2>仪表图</h2>
             <ul class="demos_default_ul">
                 <li class="demo-list-container">
                     <div class="demo-container">
@@ -672,7 +672,7 @@
             </ul>
         </div>
         <div class="demo_categories" id="heat-and-tree-maps">
-            <h2>HEAT AND TREE MAPS</h2>
+            <h2>热力图 <small>（热力图、Tree Map）</small></h2>
             <ul class="demos_default_ul">
                 <li class="demo-list-container">
                     <div class="demo-container">

@@ -1220,9 +1220,7 @@ div.edit {
 main {
     min-width: 1100px;
 }
-.demo-wrapper {
-    background-color: #fff;
-}
+
 .demo_header{
 	background-color: #006cee;
 	color: #fff;
@@ -1262,9 +1260,8 @@ main {
 
 
 div.demo_categories{
-	width:1100px;
 	height:100%;
-	margin:40px auto;
+    padding:30px 20px;
     background-color: #fff;
 }
 div.demo_categories>h2{
