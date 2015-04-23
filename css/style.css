@@ -1220,9 +1220,7 @@ div.edit {
 main {
     min-width: 1100px;
 }
-.demo-wrapper {
-    background-color: #fff;
-}
+
 .demo_header{
 	background-color: #006cee;
 	color: #fff;
@@ -1239,22 +1237,26 @@ main {
 }
 
 
-.demo_header_nav a{
-	display: inline-block;
-	width:100px;
-	height:35px;
-	text-align: center;
-	vertical-align: middle;
-	line-height: 35px;
-	background-color: #34343E;
-	text-decoration: none;
-	color: #FFFFFF;
+.demo_nav {
+    margin-bottom: 0;
+    border-bottom: none;
+}
+.nav-tabs>li  {
+    margin-bottom: 0;
+}
+.nav-tabs>li>a {
+    background-color: #000;
+    color:#fff;
+    border-radius: 0;
+    margin-right: 4px!important;
+    border: none!important;
+}
+.nav-tabs>li>a:hover,.nav-tabs>.active>a  {
+    background-color: #fff;
+    color:#000;
+    border: none!important;
 }
 
-.tab_selected{
-	background-color: #fff !important;
-	color: #000 !important;
-}
 /*Demos list整体样式*/
 .demo-section {
     margin: 0 auto;
@@ -1262,9 +1264,8 @@ main {
 
 
 div.demo_categories{
-	width:1100px;
 	height:100%;
-	margin:40px auto;
+    padding:30px 20px;
     background-color: #fff;
 }
 div.demo_categories>h2{
