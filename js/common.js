@@ -30,11 +30,6 @@ $(function(){
 	})();
 });
 
-/* Other Functions, such as
-function aa() {
-	do some thing;
-}
-*/
 
 /****** License functions *****/
 function showH(target) {
