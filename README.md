@@ -10,8 +10,8 @@ HCharts.cn version 2.0
 
 建议统一用 Sublime Text 2，推荐插件：
 
-* Emmet    前段神器
-* HTML-CSS-JS Perttify  前段代码格式化工具
+* Emmet    前端神器
+* HTML-CSS-JS Perttify  前端代码格式化工具
 * BracketHighlighter
 
 
